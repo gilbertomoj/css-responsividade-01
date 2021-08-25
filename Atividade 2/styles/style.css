@@ -1,0 +1,46 @@
+
+#title{
+    font-size: 105px;
+    font-family: 'Varela Round', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+#text{
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    color: #fff;
+
+}
+.container{
+    width: 150vh;
+    background-color: #5F7285;
+}
+.gallery{
+    width: 150vh;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.gallery > img{
+    width: 40vh;
+}
+button, a{
+    size: 13px;
+}
+button, a{
+    border: 1px solid #829DAD;
+}
+button, a :hover{
+    border: 1px solid #36B0E0;
+
+}
+@media(max-width: 80vh){
+    .container{
+        width: 80vh;
+        background-color: #5F7285;
+    }
+    .gallery{
+        display: flex;
+        flex-direction: column;
+    }
+}
